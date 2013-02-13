@@ -19,6 +19,20 @@
 		64B1C2EC16CC329500EBA069 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64B1C2EA16CC329500EBA069 /* MainStoryboard.storyboard */; };
 		64B1C2EF16CC329500EBA069 /* SuperCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B1C2EE16CC329500EBA069 /* SuperCardViewController.m */; };
 		64B1C2F716CC32CA00EBA069 /* PlayingCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B1C2F616CC32CA00EBA069 /* PlayingCardView.m */; };
+		64B1C32116CC48EC00EBA069 /* Joker.png in Resources */ = {isa = PBXBuildFile; fileRef = 64B1C31416CC48EC00EBA069 /* Joker.png */; };
+		64B1C32216CC48EC00EBA069 /* J♠.png in Resources */ = {isa = PBXBuildFile; fileRef = 64B1C31516CC48EC00EBA069 /* J♠.png */; };
+		64B1C32316CC48EC00EBA069 /* J♣.png in Resources */ = {isa = PBXBuildFile; fileRef = 64B1C31616CC48EC00EBA069 /* J♣.png */; };
+		64B1C32416CC48EC00EBA069 /* J♥.png in Resources */ = {isa = PBXBuildFile; fileRef = 64B1C31716CC48EC00EBA069 /* J♥.png */; };
+		64B1C32516CC48EC00EBA069 /* J♦.png in Resources */ = {isa = PBXBuildFile; fileRef = 64B1C31816CC48EC00EBA069 /* J♦.png */; };
+		64B1C32616CC48EC00EBA069 /* K♠.png in Resources */ = {isa = PBXBuildFile; fileRef = 64B1C31916CC48EC00EBA069 /* K♠.png */; };
+		64B1C32716CC48EC00EBA069 /* K♣.png in Resources */ = {isa = PBXBuildFile; fileRef = 64B1C31A16CC48EC00EBA069 /* K♣.png */; };
+		64B1C32816CC48EC00EBA069 /* K♥.png in Resources */ = {isa = PBXBuildFile; fileRef = 64B1C31B16CC48EC00EBA069 /* K♥.png */; };
+		64B1C32916CC48EC00EBA069 /* K♦.png in Resources */ = {isa = PBXBuildFile; fileRef = 64B1C31C16CC48EC00EBA069 /* K♦.png */; };
+		64B1C32A16CC48EC00EBA069 /* Q♠.png in Resources */ = {isa = PBXBuildFile; fileRef = 64B1C31D16CC48EC00EBA069 /* Q♠.png */; };
+		64B1C32B16CC48EC00EBA069 /* Q♣.png in Resources */ = {isa = PBXBuildFile; fileRef = 64B1C31E16CC48EC00EBA069 /* Q♣.png */; };
+		64B1C32C16CC48EC00EBA069 /* Q♥.png in Resources */ = {isa = PBXBuildFile; fileRef = 64B1C31F16CC48EC00EBA069 /* Q♥.png */; };
+		64B1C32D16CC48EC00EBA069 /* Q♦.png in Resources */ = {isa = PBXBuildFile; fileRef = 64B1C32016CC48EC00EBA069 /* Q♦.png */; };
+		64B1C32F16CC496B00EBA069 /* cardback.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 64B1C32E16CC496B00EBA069 /* cardback.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +54,20 @@
 		64B1C2EE16CC329500EBA069 /* SuperCardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperCardViewController.m; sourceTree = "<group>"; };
 		64B1C2F516CC32CA00EBA069 /* PlayingCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayingCardView.h; path = ../PlayingCardView.h; sourceTree = "<group>"; };
 		64B1C2F616CC32CA00EBA069 /* PlayingCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCardView.m; path = ../PlayingCardView.m; sourceTree = "<group>"; };
+		64B1C31416CC48EC00EBA069 /* Joker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Joker.png; sourceTree = "<group>"; };
+		64B1C31516CC48EC00EBA069 /* J♠.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "J♠.png"; sourceTree = "<group>"; };
+		64B1C31616CC48EC00EBA069 /* J♣.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "J♣.png"; sourceTree = "<group>"; };
+		64B1C31716CC48EC00EBA069 /* J♥.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "J♥.png"; sourceTree = "<group>"; };
+		64B1C31816CC48EC00EBA069 /* J♦.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "J♦.png"; sourceTree = "<group>"; };
+		64B1C31916CC48EC00EBA069 /* K♠.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "K♠.png"; sourceTree = "<group>"; };
+		64B1C31A16CC48EC00EBA069 /* K♣.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "K♣.png"; sourceTree = "<group>"; };
+		64B1C31B16CC48EC00EBA069 /* K♥.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "K♥.png"; sourceTree = "<group>"; };
+		64B1C31C16CC48EC00EBA069 /* K♦.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "K♦.png"; sourceTree = "<group>"; };
+		64B1C31D16CC48EC00EBA069 /* Q♠.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Q♠.png"; sourceTree = "<group>"; };
+		64B1C31E16CC48EC00EBA069 /* Q♣.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Q♣.png"; sourceTree = "<group>"; };
+		64B1C31F16CC48EC00EBA069 /* Q♥.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Q♥.png"; sourceTree = "<group>"; };
+		64B1C32016CC48EC00EBA069 /* Q♦.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Q♦.png"; sourceTree = "<group>"; };
+		64B1C32E16CC496B00EBA069 /* cardback.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cardback.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +129,8 @@
 		64B1C2D916CC329500EBA069 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				64B1C32E16CC496B00EBA069 /* cardback.jpg */,
+				64B1C31316CC48EC00EBA069 /* Face Card Images */,
 				64B1C2DA16CC329500EBA069 /* SuperCard-Info.plist */,
 				64B1C2DB16CC329500EBA069 /* InfoPlist.strings */,
 				64B1C2DE16CC329500EBA069 /* main.m */,
@@ -110,6 +140,26 @@
 				64B1C2E816CC329500EBA069 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		64B1C31316CC48EC00EBA069 /* Face Card Images */ = {
+			isa = PBXGroup;
+			children = (
+				64B1C31416CC48EC00EBA069 /* Joker.png */,
+				64B1C31516CC48EC00EBA069 /* J♠.png */,
+				64B1C31616CC48EC00EBA069 /* J♣.png */,
+				64B1C31716CC48EC00EBA069 /* J♥.png */,
+				64B1C31816CC48EC00EBA069 /* J♦.png */,
+				64B1C31916CC48EC00EBA069 /* K♠.png */,
+				64B1C31A16CC48EC00EBA069 /* K♣.png */,
+				64B1C31B16CC48EC00EBA069 /* K♥.png */,
+				64B1C31C16CC48EC00EBA069 /* K♦.png */,
+				64B1C31D16CC48EC00EBA069 /* Q♠.png */,
+				64B1C31E16CC48EC00EBA069 /* Q♣.png */,
+				64B1C31F16CC48EC00EBA069 /* Q♥.png */,
+				64B1C32016CC48EC00EBA069 /* Q♦.png */,
+			);
+			path = "Face Card Images";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,6 +219,20 @@
 				64B1C2E716CC329500EBA069 /* Default@2x.png in Resources */,
 				64B1C2E916CC329500EBA069 /* Default-568h@2x.png in Resources */,
 				64B1C2EC16CC329500EBA069 /* MainStoryboard.storyboard in Resources */,
+				64B1C32116CC48EC00EBA069 /* Joker.png in Resources */,
+				64B1C32216CC48EC00EBA069 /* J♠.png in Resources */,
+				64B1C32316CC48EC00EBA069 /* J♣.png in Resources */,
+				64B1C32416CC48EC00EBA069 /* J♥.png in Resources */,
+				64B1C32516CC48EC00EBA069 /* J♦.png in Resources */,
+				64B1C32616CC48EC00EBA069 /* K♠.png in Resources */,
+				64B1C32716CC48EC00EBA069 /* K♣.png in Resources */,
+				64B1C32816CC48EC00EBA069 /* K♥.png in Resources */,
+				64B1C32916CC48EC00EBA069 /* K♦.png in Resources */,
+				64B1C32A16CC48EC00EBA069 /* Q♠.png in Resources */,
+				64B1C32B16CC48EC00EBA069 /* Q♣.png in Resources */,
+				64B1C32C16CC48EC00EBA069 /* Q♥.png in Resources */,
+				64B1C32D16CC48EC00EBA069 /* Q♦.png in Resources */,
+				64B1C32F16CC496B00EBA069 /* cardback.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
