@@ -28,6 +28,14 @@
     [self setNeedsDisplay];
 }
 
+- (void)pinch:(UIPinchGestureRecognizer *)gesture {
+    if ((gesture.state == UIGestureRecognizerStateChanged) ||
+        (gesture.state == UIGestureRecognizerStateEnded)) {
+        self.faceCardScaleFactor *= gesture.scale;
+        gesture.scale = 1;
+    }
+}
+
 #define CARD_CORNER_RADIUS 12.0
 
 - (void)drawRect:(CGRect)rect {
