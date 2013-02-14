@@ -15,6 +15,10 @@
                             <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fjC-9A-YoF" customClass="PlayingCardView">
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="180" type="user" id="fie-wd-fZu"/>
+                                    <constraint firstAttribute="height" constant="280" type="user" id="uRr-iC-UKL"/>
+                                </constraints>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="Mzj-UR-o8f" appends="YES" id="SxT-sn-eUV"/>
                                 </connections>
@@ -22,10 +26,8 @@
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.40000000000000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="fjC-9A-YoF" firstAttribute="centerY" secondItem="3" secondAttribute="centerY" type="default" id="Gjg-i3-WVy"/>
-                            <constraint firstItem="fjC-9A-YoF" firstAttribute="top" secondItem="3" secondAttribute="top" constant="90" id="OrB-5S-w0w"/>
-                            <constraint firstItem="fjC-9A-YoF" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="PIy-6Q-WUl"/>
-                            <constraint firstItem="fjC-9A-YoF" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="70" id="Q4E-I1-l4w"/>
+                            <constraint firstAttribute="centerY" secondItem="fjC-9A-YoF" secondAttribute="centerY" type="user" id="ZcJ-jz-fPi"/>
+                            <constraint firstAttribute="centerX" secondItem="fjC-9A-YoF" secondAttribute="centerX" type="user" id="nfG-B6-OqC"/>
                         </constraints>
                     </view>
                     <connections>
@@ -39,8 +41,24 @@
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
+            <point key="canvasLocation" x="64" y="253"/>
         </scene>
     </scenes>
+    <classes>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="PlayingCardView" superclassName="UIView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PlayingCardView.h"/>
+        </class>
+        <class className="SuperCardViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SuperCardViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="swipe:" candidateClass="UISwipeGestureRecognizer"/>
+                <relationship kind="outlet" name="playingCardView" candidateClass="PlayingCardView"/>
+            </relationships>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
